@@ -1,7 +1,10 @@
 # distributedCalculator
 This is a distributed calculator made in Golang and using gRPC.
 
-## Go - build
+## How to Run 
+
+Go - build:
+
 First at all, this exercice requires a plugin to the protocol buffer compiler, so please see:
 
     https://github.com/golang/protobuf
