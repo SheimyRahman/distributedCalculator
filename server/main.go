@@ -5,7 +5,7 @@ import (
 	"log"
 	"net"
 
-	pb "github.com/Wdrwoman/distributedCalculator-golang/proto"
+	pb "github.com/Wdrwoman/distributedCalculator/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )
