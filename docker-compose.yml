@@ -2,10 +2,10 @@ version: "0.1"
 services:
     calc_server:
         build: .
-        container_name: distributedCalculator-golang
+        container_name: distributedCalculator
         ports:
-            - 80:80
+            - 50051:50051
         volumes:
-            - ./server/:/go/src/github.com/Wdrwoman/distributedCalculator-golang/server/
-            - ./proto/:/go/src/github.com/Wdrwoman/distributedCalculator-golang/proto/
+            - ./server/:/go/src/github.com/Wdrwoman/distributedCalculator/server/
+            - ./proto/:/go/src/github.com/Wdrwoman/distributedCalculator/proto/
 
